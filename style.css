@@ -27,13 +27,15 @@
     .cabecalho-menu {
         display: flex;
         gap: 30px;
+        text-transform: uppercase;
     }
        
     .cabecalho-menu-item {
         font-family: 'RocknRoll One', sans-serif;
         color: #000000;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 22px;
+        
     
 }
 
@@ -68,6 +70,7 @@
     color: #000000;
     text-decoration: dashed;
     text-transform: lowercase;
+    box-shadow: 10px -9px 5px black;
 }
 
 .conteudo-principal-escrito-subtitulo {
@@ -82,13 +85,17 @@
     width: 180px;
     height: 30px;
     border: none;
-    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    box-shadow: 10px -9px 5px black;
     font-family: 'RocknRoll One', sans-serif;
     font-weight: 400;
     font-size: 15px;
     color: #000000;
+    
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background: rgba(0,0,0, 0.6);
+}
 
 /* Banner */
 
